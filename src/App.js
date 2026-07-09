@@ -25,6 +25,10 @@ function App() {
         <h1 className=' text-2xl p-8'>Quercus suber</h1>
         <img className='w-full block rounded-b' src={require("./img/placeholder.png")} alt="Quercus suber"></img>
       </a>
+      <a href='https://github.com/GOMAA0001' target='_blank' className='bg-white rounded h-full text-gray-950 no-underline shadow-md'>
+        <h1 className=' text-2xl p-8'>Quercus coccifera</h1>
+        <img className='w-full block rounded-b' src={require("./img/placeholder.png")} alt="Quercus coccifera"></img>
+      </a>
     </div>
   </body>
   );
