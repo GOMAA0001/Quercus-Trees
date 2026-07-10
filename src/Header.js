@@ -2,23 +2,24 @@ import './App.css';
 
 function Header() {
   return (
-    <header className=" bg-white">
+    <header className=" bg-white font-sans">
       <div className="mx-auto flex h-24 max-w-7xl items-center gap-8 px-4 sm:px-6 lg:px-8">
-        <a href="#">
+        <a href="#" className=' text-center'>
           <span className="sr-only">Home</span>
-          <img className=' w-14 rounded-xl' src={require("./img/placeholder.png")} alt="Quercus faginea"></img>
+          <img className=' w-14 rounded-xl mx-4' src={require("./img/placeholder.png")} alt=""></img>
+          <p className='text-sm'>Quercus Trees</p>
         </a>
         <div className="flex flex-1 items-center justify-end md:justify-between">
           <nav aria-label="Global" class="hidden md:block">
             <ul className="flex items-center gap-6 text-lg">
               <li>
-                <a className="text-gray-500 transition hover:text-gray-500/75" href="#"> About </a>
+                <a className="text-gray-500 transition hover:text-gray-500/75" href="#"> Exemple </a>
               </li>
               <li>
-                <a className="text-gray-500 transition hover:text-gray-500/75" href="#"> History </a>
+                <a className="text-gray-500 transition hover:text-gray-500/75" href="#"> Exemple </a>
               </li>
               <li>
-                <a className="text-gray-500 transition hover:text-gray-500/75" href="#"> Projects </a>
+                <a className="text-gray-500 transition hover:text-gray-500/75" href="#"> Exemple </a>
               </li>
             </ul>
           </nav>
