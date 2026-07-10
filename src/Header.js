@@ -6,8 +6,7 @@ function Header() {
       <div className="mx-auto flex h-24 max-w-7xl items-center gap-8 px-4 sm:px-6 lg:px-8">
         <a href="#" className=' text-center'>
           <span className="sr-only">Home</span>
-          <img className=' w-14 rounded-xl mx-4' src={require("./img/placeholder.png")} alt=""></img>
-          <p className='text-sm'>Quercus Trees</p>
+          <img className=' w-14 rounded-xl' src={require("./img/placeholder.png")} alt=""></img>
         </a>
         <div className="flex flex-1 items-center justify-end md:justify-between">
           <nav aria-label="Global" class="hidden md:block">
