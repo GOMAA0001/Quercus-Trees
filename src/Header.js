@@ -15,10 +15,10 @@ function Header() {
                 <a className="text-gray-500 transition hover:text-gray-500/75" href="#"> Exemple </a>
               </li>
               <li>
-                <a className="text-gray-500 transition hover:text-gray-500/75" href="#"> Exemple </a>
+                <a className="text-gray-500 transition hover:text-gray-500/75" href="#"> About </a>
               </li>
               <li>
-                <a className="text-gray-500 transition hover:text-gray-500/75" href="#"> Exemple </a>
+                <a className="text-gray-500 transition hover:text-gray-500/75" href="#"> Projects </a>
               </li>
             </ul>
           </nav>
